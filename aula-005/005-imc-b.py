@@ -17,7 +17,7 @@ def imc(a, b):
     elif resultado <= 39.9:
         classificacao = "Classificação IMC: Obesidade 2°"
     
-    else:
+    elif resultado >= 40:
         classificacao = "Classificação IMC: Obesidade grave"
 
     return classificacao
